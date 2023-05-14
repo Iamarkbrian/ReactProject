@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; /* Change this to the desired background color */
+    z-index: 1000; /* Increase this value if necessary to ensure the navbar is above other elements */
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu li {
+    margin: 0 10px;
+  }
+  
+  .nav-menu li a {
+    color: #000; /* Change this to the desired text color */
+    text-decoration: none;
+  }
